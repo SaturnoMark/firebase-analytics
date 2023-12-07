@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218549982541",
+    "project_id": "test-analytics-c1b51",
+    "storage_bucket": "test-analytics-c1b51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218549982541:android:5651bd8664e24f4dbed304",
+        "android_client_info": {
+          "package_name": "com.example.flutter_analytics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbUXOecWoeFjC3gP1YnS2AAVDxxvtzaUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
