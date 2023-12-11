@@ -29,6 +29,10 @@ class _MainPageState extends State<MainPage> {
               child: const Text('Navigate to details page '),
             ),
           ),
+          ElevatedButton(
+            onPressed: () => throw Exception(),
+            child: const Text('Throw Error'),
+          ),
         ],
       ),
     );

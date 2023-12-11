@@ -31,8 +31,16 @@ class _DetailsPageState extends State<DetailsPage> {
         appBar: AppBar(
           title: const Text('Details Page'),
         ),
-        body: const Center(
-          child: Text('details page'),
+        body: Column(
+          children: [
+            const Center(
+              child: Text('details page'),
+            ),
+            ElevatedButton(
+              onPressed: () => throw FormatException('Format Exception Error'),
+              child: const Text('Format Exception'),
+            ),
+          ],
         ),
       ),
     );
